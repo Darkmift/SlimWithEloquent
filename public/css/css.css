@@ -1,0 +1,39 @@
+html,
+body {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+}
+
+.flex-container {
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    align-items: center;
+    word-wrap: break-word;
+    justify-content: center;
+}
+
+.row {
+    width: 50%;
+    border: 1px solid blue;
+}
+
+.flex-item {
+    background-color: tomato;
+    padding: 5px;
+    margin: 10px;
+    line-height: 1.5em;
+    color: white;
+    font-weight: bold;
+    font-size: 2em;
+    text-align: center;
+}
